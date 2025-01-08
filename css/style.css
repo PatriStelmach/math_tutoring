@@ -1,0 +1,149 @@
+/* style.css */
+
+:root{
+    --kolor1: rgba(255, 167, 24, 0.82);
+    --kolor2: rgba(49, 8, 159, 0.71);
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    /*background-image: url("../photos/background.avif");
+    background-size: cover; /* Dopasowanie tła do rozmiaru ekranu *
+    background-position: center; /* Wyśrodkowanie obrazu tła
+    background-repeat: no-repeat; */
+    background-color: rgba(0, 69, 138, 0.3);
+}
+
+.header {
+    background: #333;
+    color: var(--kolor1);
+    display: flex;
+    justify-content: space-evenly; /* Równomierne rozmieszczenie elementów */
+    align-items: center;
+    height: 80px; /* Wysokość nagłówka */
+    margin: 0;
+}
+
+.header_item {
+    flex: 1; /* Każdy box zajmuje równą część nagłówka */
+    text-align: center;
+    background-color: #444;
+    color: var(--kolor1);
+    padding: 20px 0;
+    margin-right: 10px;
+    text-decoration: none;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+.header_item:first-child {
+    margin-left: 10px;
+}
+
+.header_item a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.header_item:hover {
+    background-color: var(--kolor1); /* Kolor tła podczas najechania */
+    color: #000;
+    transform: translateY(3px); /* Subtelne uniesienie */
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 1);
+}
+
+
+
+h1, h2 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+#slots-container button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #ffa718;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#slots-container button:hover {
+    background-color: #ff9100;
+}
+
+#reservation-form {
+    margin-top: 20px;
+}
+
+#reservation-form input, #reservation-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#reservation-form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+#info, #appointment {
+    margin-bottom: 20px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.form {
+    width: 50%;
+}
+
+.contact {
+    width: 40%;
+
+}
